@@ -1,0 +1,41 @@
+Table Info and Object Methods
+
+-----------------------------------
+Users columns
+userName - primary key 
+password
+
+login()
+logout()
+
+
+----------------------------------
+Customers columns
+accountNum - primary key
+userName - foreign key (users)
+balance
+
+login()
+newCustomer()
+
+----------------------------------
+newCustomer columns
+username
+address
+salary
+
+submit()
+
+
+-----------------------------------
+-Employee
+primary key - employee num
+foreign key - userName
+
+approve()
+deny()
+deleteCustomer()
+
+
+
+
